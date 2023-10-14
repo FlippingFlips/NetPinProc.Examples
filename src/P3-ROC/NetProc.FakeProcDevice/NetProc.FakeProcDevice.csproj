@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<Platforms>x64;x86</Platforms>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="NetPinProc" Version="1.0.1" />
+		<PackageReference Include="NetPinProc.Game" Version="1.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="machine.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>
