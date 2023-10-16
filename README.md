@@ -1,6 +1,6 @@
 # NetPinProc.Examples
 ---
-Game / App demos for using the NetPinProc libraries
+Game / App demos for using the NetPinProc libraries.
 
 ## Examples
 ---

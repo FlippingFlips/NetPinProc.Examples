@@ -15,9 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="NetPinProc" Version="1.0.1" />
-	<PackageReference Include="NetPinProc.Game" Version="1.0.2" />
-    <PackageReference Include="NetPinProc.Dmd" Version="1.0.1" />    
+    <PackageReference Include="NetPinProc" Version="1.0.5" />
+	<PackageReference Include="NetPinProc.Game" Version="1.0.5" />
+    <PackageReference Include="NetPinProc.Dmd" Version="1.0.5" />    
     <PackageReference Include="NetPinProc.Ports.WSLED" Version="1.0.1" />
   </ItemGroup>
 

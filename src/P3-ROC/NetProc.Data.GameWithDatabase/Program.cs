@@ -4,7 +4,9 @@ using NetPinProc.Game.Sqlite;
 namespace NetPinProc.Data.GameWithDatabase
 {
     /// <summary>
-    /// Runs this program which will run a game, create a database and increment the times the machine powered up
+    /// Runs this program which will create a new <see cref="NetProcDataGameController"/> <para/>
+    /// Adjust parameters when creating a game below. Change to simulated or delete database on run. <para/>
+    /// When game is created POWERED_ON_TIMES should increment and this is printed to the screen, each run should show value incremented from the database
     /// </summary>
     internal class Program
     {
@@ -15,7 +17,7 @@ namespace NetPinProc.Data.GameWithDatabase
             //delete database everytime
             //var _game = new NetProcDataGameController(Domain.PinProc.MachineType.PDB, true, new ConsoleLogger(), true);
 
-            //don't delete database
+            //don't delete the database, run real board
             var _game = new NetProcDataGameController(Domain.PinProc.MachineType.PDB, false, new ConsoleLogger(), false);
 
             // Game data is saved when this program quits and when a game quits.
