@@ -47,7 +47,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="configuration\machine.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="fonts\04B-03-7px.dmd">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
